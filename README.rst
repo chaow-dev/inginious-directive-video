@@ -1,5 +1,5 @@
 ===============================
-Inginious Directive Video Plugins
+INGInious Directive Video Plugins
 ===============================
 
 An Inginious Plugin for embed Youtube and Vimeo Videos
