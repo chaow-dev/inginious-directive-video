@@ -18,7 +18,6 @@ from __future__ import absolute_import
 from docutils import nodes
 from docutils.parsers.rst import Directive, directives
 
-import docutils_graphviz
 
 
 def align(argument):
@@ -68,4 +67,10 @@ def init(plugin_manager, _, _2, _3):
     """ Init the plugin """
     directives.register_directive('youtube', Youtube)
     directives.register_directive('vimeo', Vimeo)
-    directives.register_directive('dot', docutils_graphviz.Graphviz)
+
+
+    # import docutils_graphviz
+    # directives.register_directive('dot', docutils_graphviz.Graphviz)
+
+
+
